@@ -19,15 +19,12 @@ It focuses on real-world scenarios like **data-driven testing**, **file handling
 - Automate file downloads
 
 ### 🧪 Authentication Handling
-- Handle basic HTTP authentication using:
-  - URL credentials (`https://username:password@site.com`)
-  - Alert popups (using `driver.switchTo().alert()`)
-- Automate login via UI for form-based authentication
+- ✅ **Basic HTTP Authentication using Selenium**
+  - Uses `Predicate<URI>` and `HasAuthentication` for clean, preemptive login.
+  - Eliminates the need for embedding credentials in the URL.
 
 ### 🧰 Chrome DevTools Protocol (CDP)
 - Use Chrome DevTools APIs in Selenium (via `DevTools` class)
-- Capture network traffic (e.g., API calls, status codes)
-- Intercept and validate requests and responses
 - Simulate network throttling and geolocation
 
 ---
